@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bn_bg_wide">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="With its 55 percent reduction,Google Smart Application Update reduces traffic to 62 Pbytes(138*0.45) ,but DELTA++ at 77 percent savings pushes that reduction another 22 percent to 32 Pbytes(138*o.23).If 33 percent of updates are through Wi-Fi,the extra savings in cellular networks is approximately 22 Pbytes.According to 2012 report by CTIA,8 US wireless data traffic in the first half of 2012 was 590 pbytes, translating to approximately 1,180 pbytes per year.Thus,Our savings of roughly 20 pbytes represents more than 1.7 percent of all cellular traffic assignigcant savings.This calculated savings percentage should still hold even as applications and users increase."/>
+
+    <Button
+        android:id="@+id/btn_viewgraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Graph Here"
+        android:layout_marginTop="20dp"
+        android:background="#2C236E"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+</LinearLayout>

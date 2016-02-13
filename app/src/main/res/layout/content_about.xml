@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bn_bg_wide"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="android.com.delta.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_about"
+        android:textColor="#ff0000"
+        android:id="@+id/tv_about" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This method of creating and Deploying update patches improves on Google Smart Application udate by first unpacking the Android Application Package and Then Compressing its elements individually.the smartphone user can then download a smaller patch.Experiments show that performance yields 49 percent more reduction relative to Google's solution,increasing the savings in cellular network bandwidth use and resulting in lighter Application server loads.This reduction in Android application-update traffic could translate to a 1.7 percent decrease in annual US cellular traffic.Similar methods applied to iPhone application updates could yield even greater savings."
+        android:textColor="#ffffff"
+        android:id="@+id/tv_about_txt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btn_go"
+        android:background="#2C236E"
+        android:layout_gravity="end"
+        android:textColor="#ffffff"
+        android:id="@+id/btn_go" />
+
+</LinearLayout>

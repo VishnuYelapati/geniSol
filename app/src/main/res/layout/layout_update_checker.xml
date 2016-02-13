@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bn_bg_wide"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:text="DELTA generated a patch as a delta difference between the application's old and new Apk versions.The bsdigg delta encoding tool produces this delta patch in the server and bspatch tool deploys the patch in the smartphones.Delta works generally like Google Smart Application Update in that both use delta encoding and neither unpacks the APK.DELTA++ improves on both methods by decompressing the Apk and exploiting its specic structure.The result is a much smaller patch."/>
+
+    <TextView
+        android:id="@+id/tv_package_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/btn_chek_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check For Update"
+        android:layout_marginTop="20dp"
+        android:background="#2C236E"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for Graph"
+        android:background="#2C236E"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"/>
+</LinearLayout>
