@@ -30,10 +30,6 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ApkListActivity" />
-        <activity
-            android:name=".ScrollingActivity"
-            android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".UpdateChecker"/>
         <activity android:name=".Graph"/>
         <activity android:name=".WebViewActivity"/>

@@ -18,9 +18,7 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setContentView(R.layout.content_about);
 
         tv_about=(TextView)findViewById(R.id.tv_about);
         tv_about_txt=(TextView)findViewById(R.id.tv_about_txt);
